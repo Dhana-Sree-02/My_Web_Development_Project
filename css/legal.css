@@ -1,0 +1,103 @@
+/* Hero Container */
+
+.hero-container {
+  padding: 1rem;
+  text-align: center;
+  background: #eef6ffc7;
+  margin:10px 10px;
+  border-radius: 10px;
+  font-size: 19px;
+}
+
+.hero-image {
+  width: 20%;          /* reduce size to 40% of container */
+  max-width: 100px;    /* cap the maximum width */
+  border-radius: 12px;
+  
+}
+
+/* Rights Container */
+.rights-container {
+  padding: 2rem;
+  background: #0f0f0fac;
+  margin:0 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  
+}
+.rights-container h2 ,.rights-container h1{
+  padding:15px;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.rights-container h2{
+  padding-top: 5rem;
+
+}
+.rights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  font-size: 18px;
+}
+
+.right-box {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.right-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+
+/* Laws Container */
+.laws-container {
+  padding: 2rem;
+}
+
+.law-grid {
+  display: grid;
+  padding-top: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+   font-size: 18px;
+
+}
+
+.law-card {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.law-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.law-card h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.law-card p {
+  color: #555;
+}
+
+.law-card a {
+  margin-top: 0.8rem;
+  text-decoration: none;
+  color: #4a90e2;
+  font-weight: bold;
+}

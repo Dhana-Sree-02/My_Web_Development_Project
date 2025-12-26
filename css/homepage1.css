@@ -1,0 +1,227 @@
+/* ---------- Global Styles ---------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: linear-gradient(120deg, rgb(161, 69, 240), rgb(221, 23, 231));
+  min-height: 100vh;
+  color: #333;
+  background-image: url("../images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------- Header ---------- */
+.header {
+  background: rgba(2, 2, 2, 0.295);
+  padding: 10px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  border-radius: 0 0 20px 20px;
+  color: aliceblue;
+}
+.header .brand h1 {
+  display: flex;
+  align-items: center;
+  gap: 2px; 
+  /* space between logo and text */
+}
+
+.header .brand h1 img {
+  height: 130px;   /* adjust size as needed */
+  width: auto;
+  vertical-align: middle;
+}
+
+
+.header h1 {
+ color: white;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.header a {
+  text-decoration: none;
+ color: white;
+ font-size: 25px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.header a:hover {
+  background: rgba(113, 188, 231, 0.475);
+}
+
+/* ---------- Hero Section ---------- */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero-content {
+  background: white;
+  padding: 20px 30px;
+  padding-bottom: 10px;
+  margin: auto;
+  width: 90%;
+  max-width: 1000px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(98,186,150,0.3);
+}
+
+.hero h2 {
+  font-size: 2rem;
+  color: #4a148c;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  margin-bottom: 20px;
+  color: #444;
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top:10px;
+  padding: 12px 22px;
+   background: linear-gradient(to right,rgba(78, 52, 78, 0.607),rgb(158, 67, 120));
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+  font-size: 18px;
+  
+}
+.btn a{
+  color:rgb(229, 229, 229);
+}
+
+.btn:hover {
+  background: rgb(120, 89, 121);}
+
+/* ---------- About Section ---------- */
+.about {
+  width: 80%;
+  margin: 30px auto;
+  background: white;
+  padding: 35px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(98,186,150,0.3);
+}
+
+.about h2 {
+  color: purple;
+  margin-bottom: 12px;
+  font-size: 30px;
+}
+.about p{
+  font-size: 20px;
+}
+
+/* ---------- Services Section ---------- */
+.services {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.service-box {
+  display: inline-block;
+  width: 600px;
+  max-height:auto;
+  background: white;
+  padding: 25px;
+  margin: 15px;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(98,186,150,0.3);
+  transition: transform 0.3s;
+}
+
+.service-box:hover {
+  transform: translateY(-6px);
+}
+
+.service-box h3 {
+  color: purple;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+.service-box p {
+  font-size: 20px;
+}
+main{
+  flex:1;
+}
+/* ---------- Contact Section ---------- */
+.contact {
+  width: 80%;
+  margin: 40px auto;
+  background: white;
+  padding: 35px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(98,186,150,0.3);
+  text-decoration: none;
+}
+
+.contact form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid rgb(219,151,219);
+  text-align: left;
+}
+
+.contact button {
+  background: purple;
+  color: wheat;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact button:hover {
+  background: rgb(95,113,180);
+}
+
+/* ---------- Footer ---------- */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.623);
+  color: rgb(255, 255, 255);
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0 -4px 15px rgba(0,0,0,0.15);
+  margin-top: auto;
+  font-size: 20px;
+}

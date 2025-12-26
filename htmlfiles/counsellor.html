@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samatva | Gender-Responsive Support</title>
+  <link rel="stylesheet" type="text/css" href="../css/counsellor.css" />
+  <link rel="stylesheet" type="text/css" href="../css/global.css" />
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="brand">
+      <h1><img src="../images/images-removebg-preview.png">Samatva</h1>
+    </div>
+
+    
+    <nav class="navbar">
+      <ul>
+        <li><a href="homepage1.html">Home</a></li>
+        <li><a href="legal.html">Legal</a></li>
+        <li><a href="counsellor.html">Counsellor</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+         <li><a href="user.html">Profile</a></li>
+     
+      </ul>
+    </nav>
+</header>
+  <!-- Counsellor Section -->
+  <section class="counsellor-container">
+    <h2>Meet Our Counsellors</h2>
+    <p class="intro">
+      Our trained counsellors provide confidential, compassionate, and professional support 
+      to individuals facing domestic violence, harassment, or emotional distress.
+    </p>
+
+    <div class="counsellor-grid">
+      <div class="counsellor-card">
+        <img style="margin-top: 35px;"src="https://t3.ftcdn.net/jpg/15/34/03/58/360_F_1534035806_6gn57ou4V0dVZY6l30h6nEB5gWQRAP6v.jpg" alt="Counsellor 1">
+        <h3 class="an">Dr. Ananya Rao</h3>
+        <p>Clinical Psychologist specializing in trauma recovery and women's rights.</p>
+        <a href="session.html" class="btn">Book Session</a>
+      </div>
+      <div class="counsellor-card">
+        <img src="https://thumbs.dreamstime.com/b/man-profile-cartoon-smiling-round-icon-vector-illustration-graphic-design-135443422.jpg" alt="Counsellor 2">
+        <h3>Mr. Rohan Mehta</h3>
+        <p>Legal Counsellor with expertise in domestic violence and family law cases.</p>
+        <a href="session.html" class="btn">Book Session</a>
+      </div>
+      <div class="counsellor-card">
+        <img src="https://img.freepik.com/premium-vector/cartoon-girl-profile-friendly-approachable_1145966-9807.jpg" alt="Counsellor 3">
+        <h3>Ms. Priya Sharma</h3>
+        <p>Social Worker providing guidance on shelter, rehabilitation, and community support.</p>
+        <a href="session.html" class="btn">Book Session</a>
+      </div>
+    </div>
+  </section>
+
+<footer class="footer">
+    <p>© <span id="year"></span> Samatva | All Rights Reserved</p>
+  </footer>
+
+  <!-- YEAR SCRIPT -->
+  <script src="../js/counsellor.js">
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+  </body>
+  </html>

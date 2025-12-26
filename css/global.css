@@ -1,0 +1,86 @@
+/* ---------- Global Styles ---------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  
+  min-height: 100vh;
+  color: #333;
+  background-image: url("../images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+main{
+  flex:1;
+}
+
+/* ---------- Header ---------- */
+.header {
+  background: rgba(2, 2, 2, 0.295);
+  padding: 10px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  border-radius: 0 0 20px 20px;
+  color: aliceblue;
+}
+.header .brand h1 {
+  display: flex;
+  align-items: center;
+  gap: 2px; 
+  /* space between logo and text */
+}
+
+.header .brand h1 img {
+  height: 130px;   /* adjust size as needed */
+  width: auto;
+  vertical-align: middle;
+}
+
+
+.header h1 {
+ color: white;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.header a {
+  text-decoration: none;
+ color: white;
+ font-size: 25px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.header a:hover {
+  background: rgba(113, 188, 231, 0.475);
+}
+/* ---------- Footer ---------- */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.836);
+  color: rgb(0, 0, 0);
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0 -4px 15px rgba(0,0,0,0.15);
+  margin-top: auto; 
+  font-size: 20px;  
+}
+

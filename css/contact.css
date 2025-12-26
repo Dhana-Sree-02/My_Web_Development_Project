@@ -1,0 +1,57 @@
+body{
+  display: flex;
+  flex-direction: column;    /* centers horizontally */ 
+  background: linear-gradient(120deg, rgb(161, 69, 240), rgb(97, 45, 116));
+
+}
+main{
+  flex:1;
+}
+.container h2{
+  padding-bottom: 10px;
+}
+.contact {
+  width: 32%;
+  margin: 40px auto;
+  background: rgba(255, 255, 255, 0.795);
+  padding: 35px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(98,186,150,0.3);
+  
+}
+
+.contact form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  
+}
+
+.contact input,
+.contact textarea {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid rgb(219,151,219);
+  text-align: left;
+  font-size: 23px;
+}
+
+.contact button {
+  background: linear-gradient(to right,rgba(78, 52, 78, 0.607),rgb(158, 67, 120));
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 23px;
+}
+
+.contact button:hover {
+  background: rgb(125, 95, 126);
+}
+

@@ -1,0 +1,49 @@
+.contact {
+  width: 32%;
+  margin: 40px auto;
+  background: white;
+  padding: 35px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(98,186,150,0.3);
+  
+}
+.contact form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contact h1{
+    padding-bottom: 10px;
+}
+.contact label{
+    text-align: left;
+    font-size:20px;
+}
+.contact input,
+.contact textarea,
+.contact select {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid rgb(219,151,219);
+  text-align: left;
+}
+
+.btn {
+  background: linear-gradient(to right,rgba(78, 52, 78, 0.607),rgb(158, 67, 120));
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 23px;
+   text-decoration: none;
+}
+
+.btn:hover {
+  background: rgb(125, 95, 126);
+}
